@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.pojavlaunch.vulkan.utils;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_LANGUAGE;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_LANGUAGE;
 
 import android.content.*;
 import android.content.res.*;
@@ -8,7 +8,7 @@ import android.os.Build;
 
 import androidx.preference.*;
 import java.util.*;
-import net.kdt.pojavlaunch.prefs.*;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
 
 public class LocaleUtils {
 

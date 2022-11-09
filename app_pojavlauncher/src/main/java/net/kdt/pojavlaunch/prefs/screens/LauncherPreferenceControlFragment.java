@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.pojavlaunch.vulkan.prefs.screens;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.prefs.CustomSeekBarPreference;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.prefs.CustomSeekBarPreference;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
 
 public class LauncherPreferenceControlFragment extends LauncherPreferenceFragment {
 

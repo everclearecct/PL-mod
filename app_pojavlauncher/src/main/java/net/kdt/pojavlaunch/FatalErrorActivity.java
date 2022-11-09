@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.content.*;
 import android.os.*;

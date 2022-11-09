@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.value;
+package net.kdt.pojavlaunch.vulkan.value;
 
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftLauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftLauncherProfiles;
 
 import java.io.File;
 import java.io.IOException;

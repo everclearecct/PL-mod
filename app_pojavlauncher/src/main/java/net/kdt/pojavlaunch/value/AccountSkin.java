@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.value;
+package net.kdt.pojavlaunch.vulkan.value;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.utils.DownloadUtils;
 
 public class AccountSkin {
     public static Bitmap getSkin(String uuid) throws IOException {

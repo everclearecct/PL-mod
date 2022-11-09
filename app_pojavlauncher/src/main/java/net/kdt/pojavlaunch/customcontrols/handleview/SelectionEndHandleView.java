@@ -17,12 +17,12 @@
 /*
  * This class has been splited from android/widget/Editor$HandleView.java
  */
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.pojavlaunch.vulkan.customcontrols.handleview;
 
 import android.graphics.drawable.*;
 import android.view.*;
 
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlButton;
 
 
 public class SelectionEndHandleView extends HandleView {

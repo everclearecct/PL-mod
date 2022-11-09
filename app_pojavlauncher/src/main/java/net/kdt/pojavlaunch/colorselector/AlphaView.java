@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package net.kdt.pojavlaunch.vulkan.colorselector;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.pojavlaunch.vulkan.Tools;
 
 import top.defaults.checkerboarddrawable.CheckerboardDrawable;
 

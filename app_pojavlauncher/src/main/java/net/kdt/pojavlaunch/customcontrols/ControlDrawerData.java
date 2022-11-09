@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.pojavlaunch.vulkan.customcontrols;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.pojavlaunch.vulkan.Tools;
 
 import java.util.ArrayList;
 
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.DOWN;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.LEFT;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.RIGHT;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.UP;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.FREE;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData.Orientation.DOWN;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData.Orientation.LEFT;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData.Orientation.RIGHT;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData.Orientation.UP;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData.Orientation.FREE;
 
 import androidx.annotation.Keep;
 

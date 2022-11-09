@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package net.kdt.pojavlaunch.vulkan.value.launcherprofiles;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 public class MinecraftLauncherProfiles
 {

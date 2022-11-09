@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.pojavlaunch.vulkan.utils;
 
 import android.util.Log;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.JMinecraftVersionList;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraConstants;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraCore;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
 
 import java.sql.Date;
 import java.text.ParseException;

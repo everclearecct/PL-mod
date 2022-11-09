@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.app.*;
 import android.content.*;
@@ -19,11 +19,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.zip.*;
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.utils.*;
-import net.kdt.pojavlaunch.value.*;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.utils.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
 
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -35,8 +35,8 @@ import android.widget.Toast;
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
 import static android.os.Build.VERSION_CODES.Q;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
 
 public final class Tools {
     public static final boolean ENABLE_DEV_FEATURES = BuildConfig.DEBUG;

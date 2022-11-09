@@ -28,7 +28,7 @@
  *
  *************************************************************************/
 
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 public class LwjglGlfwKeycode {
     /** The unknown key. */

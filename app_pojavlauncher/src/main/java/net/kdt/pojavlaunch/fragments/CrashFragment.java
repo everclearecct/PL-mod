@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package net.kdt.pojavlaunch.vulkan.fragments;
 
 import android.os.*;
 
@@ -9,7 +9,7 @@ import android.util.Log;
 import android.view.*;
 import android.widget.*;
 import java.io.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 import android.graphics.*;
 import androidx.fragment.app.Fragment;

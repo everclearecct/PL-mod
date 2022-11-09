@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package net.kdt.pojavlaunch.vulkan.customcontrols.gamepad;
 
 
 import android.content.Context;
@@ -15,25 +15,25 @@ import android.widget.Toast;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.math.MathUtils;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.MCOptionUtils;
+import net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.utils.MCOptionUtils;
 
 import org.lwjgl.glfw.CallbackBridge;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.isJoystickEvent;
-import static net.kdt.pojavlaunch.utils.MCOptionUtils.getMcScale;
+import static net.kdt.pojavlaunch.vulkan.Tools.currentDisplayMetrics;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.GamepadJoystick.isJoystickEvent;
+import static net.kdt.pojavlaunch.vulkan.utils.MCOptionUtils.getMcScale;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 

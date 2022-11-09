@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
-import static net.kdt.pojavlaunch.BaseMainActivity.touchCharInput;
-import static net.kdt.pojavlaunch.utils.MCOptionUtils.getMcScale;
+import static net.kdt.pojavlaunch.vulkan.BaseMainActivity.touchCharInput;
+import static net.kdt.pojavlaunch.vulkan.utils.MCOptionUtils.getMcScale;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 import static org.lwjgl.glfw.CallbackBridge.windowHeight;
@@ -29,12 +29,12 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import net.kdt.pojavlaunch.vulkan.utils.MathUtils;
 
-import net.kdt.pojavlaunch.customcontrols.gamepad.Gamepad;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.JREUtils;
-import net.kdt.pojavlaunch.utils.MCOptionUtils;
+import net.kdt.pojavlaunch.vulkan.customcontrols.gamepad.Gamepad;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.utils.JREUtils;
+import net.kdt.pojavlaunch.vulkan.utils.MCOptionUtils;
 
 import org.lwjgl.glfw.CallbackBridge;
 
@@ -575,7 +575,7 @@ public class MinecraftGLSurface extends View {
         int barX = (CallbackBridge.physicalWidth / 2) - (barWidth / 2);
         if(x < barX || x >= barX + barWidth) return -1;
 
-        return HOTBAR_KEYS[(int) net.kdt.pojavlaunch.utils.MathUtils.map(x, barX, barX + barWidth, 0, 9)];
+        return HOTBAR_KEYS[(int) net.kdt.pojavlaunch.vulkan.utils.MathUtils.map(x, barX, barX + barWidth, 0, 9)];
     }
 
     /** Return the size, given the UI scale size */

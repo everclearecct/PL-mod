@@ -3,7 +3,7 @@ package org.lwjgl.glfw;
 import android.os.Handler;
 import android.os.Looper;
 
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 import android.content.*;
 import android.view.Choreographer;
 

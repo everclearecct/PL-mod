@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package net.kdt.pojavlaunch.vulkan.value.launcherprofiles;
 import com.google.gson.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 import java.io.*;
 
 public class LauncherProfiles

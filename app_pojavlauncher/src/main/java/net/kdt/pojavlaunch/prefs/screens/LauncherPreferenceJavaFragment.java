@@ -1,16 +1,16 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.pojavlaunch.vulkan.prefs.screens;
 
-import static net.kdt.pojavlaunch.Architecture.is32BitsDevice;
-import static net.kdt.pojavlaunch.Tools.getTotalDeviceMemory;
+import static net.kdt.pojavlaunch.vulkan.Architecture.is32BitsDevice;
+import static net.kdt.pojavlaunch.vulkan.Tools.getTotalDeviceMemory;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.preference.EditTextPreference;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.prefs.CustomSeekBarPreference;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.prefs.CustomSeekBarPreference;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
 
 public class LauncherPreferenceJavaFragment extends LauncherPreferenceFragment {
     @Override

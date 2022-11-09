@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package net.kdt.pojavlaunch.vulkan.value.launcherprofiles;
 
 public class MinecraftLauncherSettings
 {

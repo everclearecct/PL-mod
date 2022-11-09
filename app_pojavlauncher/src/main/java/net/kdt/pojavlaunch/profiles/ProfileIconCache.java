@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package net.kdt.pojavlaunch.vulkan.profiles;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -6,7 +6,7 @@ import android.graphics.BitmapFactory;
 import android.util.Base64;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
-import static net.kdt.pojavlaunch.MinecraftGLSurface.FINGER_SCROLL_THRESHOLD;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
+import static net.kdt.pojavlaunch.vulkan.MinecraftGLSurface.FINGER_SCROLL_THRESHOLD;
+import static net.kdt.pojavlaunch.vulkan.Tools.currentDisplayMetrics;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.DEFAULT_PREF;
 
 import android.content.Context;
 import android.os.Build;
@@ -18,7 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
 
 import org.lwjgl.glfw.CallbackBridge;
 

@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package net.kdt.pojavlaunch.vulkan.customcontrols.keyboard;
 
-import net.kdt.pojavlaunch.AWTInputBridge;
-import net.kdt.pojavlaunch.AWTInputEvent;
+import net.kdt.pojavlaunch.vulkan.AWTInputBridge;
+import net.kdt.pojavlaunch.vulkan.AWTInputEvent;
 
 /** Send chars via the AWT Bridgee */
 public class AwtCharSender implements CharacterSenderStrategy {

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.app.*;
 import android.content.*;
@@ -12,7 +12,7 @@ import java.io.*;
 import java.text.*;
 import java.util.*;
 
-import net.kdt.pojavlaunch.utils.*;
+import net.kdt.pojavlaunch.vulkan.utils.*;
 
 public class PojavApplication extends Application {
 	public static String CRASH_REPORT_TAG = "PojavCrashReport";

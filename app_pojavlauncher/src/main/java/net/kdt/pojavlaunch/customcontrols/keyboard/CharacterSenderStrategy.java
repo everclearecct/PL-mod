@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package net.kdt.pojavlaunch.vulkan.customcontrols.keyboard;
 
 /** Simple interface for sending chars through whatever bridge will be necessary */
 public interface CharacterSenderStrategy {

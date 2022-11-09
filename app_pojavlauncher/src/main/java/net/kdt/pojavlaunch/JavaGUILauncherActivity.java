@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.annotation.SuppressLint;
 import android.os.*;
@@ -9,11 +9,11 @@ import android.widget.*;
 import java.io.*;
 import java.util.*;
 
-import net.kdt.pojavlaunch.customcontrols.keyboard.AwtCharSender;
-import net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.utils.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.keyboard.AwtCharSender;
+import net.kdt.pojavlaunch.vulkan.customcontrols.keyboard.TouchCharInput;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.utils.*;
 import org.lwjgl.glfw.*;
 
 import com.kdt.LoggerView;

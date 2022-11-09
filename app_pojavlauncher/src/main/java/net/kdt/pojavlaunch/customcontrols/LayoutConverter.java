@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.pojavlaunch.vulkan.customcontrols;
 
 import com.google.gson.JsonSyntaxException;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode;
+import net.kdt.pojavlaunch.vulkan.Tools;
 
 import org.json.JSONArray;
 import org.json.JSONException;

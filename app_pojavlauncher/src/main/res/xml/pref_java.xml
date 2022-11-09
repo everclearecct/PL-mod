@@ -2,10 +2,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app2="http://schemas.android.com/apk/res-auto">
 
-    <net.kdt.pojavlaunch.prefs.BackButtonPreference/>
+    <net.kdt.pojavlaunch.vulkan.prefs.BackButtonPreference/>
 
     <PreferenceCategory android:title="Java Tweaks">
-        <net.kdt.pojavlaunch.prefs.RuntimeManagerPreference
+        <net.kdt.pojavlaunch.vulkan.prefs.RuntimeManagerPreference
             android:summary="@string/multirt_subtitle"
             android:title="@string/multirt_title"/>
 
@@ -17,7 +17,7 @@
             android:summary="@string/mcl_setting_subtitle_javaargs"
             android:title="@string/mcl_setting_title_javaargs" />
 
-        <net.kdt.pojavlaunch.prefs.CustomSeekBarPreference
+        <net.kdt.pojavlaunch.vulkan.prefs.CustomSeekBarPreference
             android:key="allocation"
             android:icon="@drawable/ic_setting_ram"
             android:summary="@string/mcl_memory_allocation_subtitle"

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.pojavlaunch.vulkan.multirt;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -8,8 +8,8 @@ import android.webkit.MimeTypeMap;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.BaseLauncherActivity;
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.BaseLauncherActivity;
+import net.kdt.pojavlaunch.vulkan.R;
 
 public class MultiRTConfigDialog {
     public static final int MULTIRT_PICK_RUNTIME = 2048;

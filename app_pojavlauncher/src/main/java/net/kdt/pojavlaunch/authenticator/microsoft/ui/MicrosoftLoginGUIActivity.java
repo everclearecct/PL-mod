@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.microsoft.ui;
+package net.kdt.pojavlaunch.vulkan.authenticator.microsoft.ui;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -16,7 +16,7 @@ import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 public class MicrosoftLoginGUIActivity extends AppCompatActivity {
     public static final int AUTHENTICATE_MICROSOFT_REQUEST = 60;

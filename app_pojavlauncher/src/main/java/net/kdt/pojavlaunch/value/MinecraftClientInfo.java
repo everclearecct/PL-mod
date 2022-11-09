@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value;
+package net.kdt.pojavlaunch.vulkan.value;
 
 public class MinecraftClientInfo
 {

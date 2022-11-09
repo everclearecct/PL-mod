@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.prefs;
+package net.kdt.pojavlaunch.vulkan.prefs;
 
 import android.content.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.utils.JREUtils;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.utils.JREUtils;
 
 public class LauncherPreferences {
     public static final String PREF_KEY_CURRENT_PROFILE = "currentProfile";

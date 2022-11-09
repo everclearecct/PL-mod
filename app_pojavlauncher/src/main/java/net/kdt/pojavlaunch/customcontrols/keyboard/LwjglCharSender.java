@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package net.kdt.pojavlaunch.vulkan.customcontrols.keyboard;
 
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode;
 
 import org.lwjgl.glfw.CallbackBridge;
 

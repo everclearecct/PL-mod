@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package net.kdt.pojavlaunch.vulkan.customcontrols.gamepad;
 
 import android.view.InputDevice;
 import android.view.KeyEvent;

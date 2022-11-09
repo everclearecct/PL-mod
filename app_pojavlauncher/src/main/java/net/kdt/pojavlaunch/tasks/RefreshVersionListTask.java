@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.tasks;
+package net.kdt.pojavlaunch.vulkan.tasks;
 
 import android.os.*;
 
@@ -6,11 +6,11 @@ import android.util.Log;
 
 import java.io.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.utils.*;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraCore;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraConstants;
+import net.kdt.pojavlaunch.vulkan.utils.*;
 
 public class RefreshVersionListTask extends AsyncTask<Void, Void, ArrayList<String>>
 {

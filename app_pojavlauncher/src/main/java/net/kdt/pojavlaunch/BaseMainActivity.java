@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
-import static net.kdt.pojavlaunch.Architecture.ARCH_X86;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_VIRTUAL_MOUSE_START;
+import static net.kdt.pojavlaunch.vulkan.Architecture.ARCH_X86;
+import static net.kdt.pojavlaunch.vulkan.Tools.currentDisplayMetrics;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_VIRTUAL_MOUSE_START;
 
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.windowHeight;
@@ -24,17 +24,17 @@ import com.kdt.LoggerView;
 
 import java.io.*;
 import java.util.*;
-import net.kdt.pojavlaunch.customcontrols.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.*;
 
-import net.kdt.pojavlaunch.customcontrols.keyboard.LwjglCharSender;
-import net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.customcontrols.keyboard.LwjglCharSender;
+import net.kdt.pojavlaunch.vulkan.customcontrols.keyboard.TouchCharInput;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
 
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.utils.*;
-import net.kdt.pojavlaunch.value.*;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.utils.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
 
 import org.lwjgl.glfw.*;
 import android.net.*;

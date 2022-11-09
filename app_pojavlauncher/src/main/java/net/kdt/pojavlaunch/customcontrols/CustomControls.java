@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.pojavlaunch.vulkan.customcontrols;
 import android.content.*;
 
 import androidx.annotation.Keep;
 
 import java.io.IOException;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 @Keep
 public class CustomControls {

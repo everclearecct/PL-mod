@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.pojavlaunch.vulkan.customcontrols.handleview;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -16,16 +16,16 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.colorselector.ColorSelector;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
+import net.kdt.pojavlaunch.vulkan.EfficientAndroidLWJGLKeycode;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.colorselector.ColorSelector;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlButton;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlData;
 
 import top.defaults.checkerboarddrawable.CheckerboardDrawable;
 
-import static net.kdt.pojavlaunch.customcontrols.handleview.ActionPopupWindow.setPercentageText;
+import static net.kdt.pojavlaunch.vulkan.customcontrols.handleview.ActionPopupWindow.setPercentageText;
 
 public class EditControlButtonPopup {
 

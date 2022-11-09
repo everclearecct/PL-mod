@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package net.kdt.pojavlaunch.vulkan.customcontrols.gamepad;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode;
 
 public class GamepadMap {
 

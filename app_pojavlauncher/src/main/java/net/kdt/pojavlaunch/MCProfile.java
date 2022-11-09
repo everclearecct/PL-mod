@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import java.io.*;;
 
 /**
  * This account data format is deprecated.
- * The current account data format is JSON on net.kdt.pojavlaunch.value.MinecraftAccount.
+ * The current account data format is JSON on net.kdt.pojavlaunch.vulkan.value.MinecraftAccount.
  * This class remain for account data migrator only.
  * Methods for saving/exporting on this format are no longer available.
  */

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.pojavlaunch.vulkan.multirt;
 
 import java.util.Objects;
 

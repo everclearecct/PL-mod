@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.tasks;
+package net.kdt.pojavlaunch.vulkan.tasks;
 
-import static net.kdt.pojavlaunch.Tools.ENABLE_DEV_FEATURES;
+import static net.kdt.pojavlaunch.vulkan.Tools.ENABLE_DEV_FEATURES;
 
 import android.app.*;
 import android.content.*;
@@ -10,14 +10,14 @@ import android.util.*;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.utils.*;
-import net.kdt.pojavlaunch.value.*;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.multirt.Runtime;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.utils.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
 
 import org.apache.commons.io.*;
 

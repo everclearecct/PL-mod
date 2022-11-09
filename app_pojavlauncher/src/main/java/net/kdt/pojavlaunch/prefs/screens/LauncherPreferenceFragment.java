@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.pojavlaunch.vulkan.prefs.screens;
 
 
 import android.graphics.Color;
@@ -8,16 +8,16 @@ import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.preference.*;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
 
 import android.content.*;
 import android.view.View;
 import android.widget.Toast;
 
-import static net.kdt.pojavlaunch.Architecture.is32BitsDevice;
-import static net.kdt.pojavlaunch.Tools.getTotalDeviceMemory;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
+import static net.kdt.pojavlaunch.vulkan.Architecture.is32BitsDevice;
+import static net.kdt.pojavlaunch.vulkan.Tools.getTotalDeviceMemory;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
 
 /**
  * Preference for the main screen, any sub-screen should inherit this class for consistent behavior,

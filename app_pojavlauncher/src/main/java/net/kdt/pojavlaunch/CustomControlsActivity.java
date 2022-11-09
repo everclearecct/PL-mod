@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.app.Activity;
 import android.content.*;
@@ -14,8 +14,8 @@ import com.google.gson.JsonSyntaxException;
 import com.kdt.pickafile.*;
 import java.io.*;
 
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.customcontrols.*;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.*;
 
 
 public class CustomControlsActivity extends BaseActivity {

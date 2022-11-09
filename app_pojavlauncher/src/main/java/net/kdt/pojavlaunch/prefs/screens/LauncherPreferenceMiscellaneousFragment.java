@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.pojavlaunch.vulkan.prefs.screens;
 
 import android.os.Build;
 import android.os.Bundle;
 
 import androidx.preference.SwitchPreference;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 public class LauncherPreferenceMiscellaneousFragment extends LauncherPreferenceFragment {
     @Override

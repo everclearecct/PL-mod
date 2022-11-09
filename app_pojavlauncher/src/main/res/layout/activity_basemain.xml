@@ -15,17 +15,17 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent">
 
-		<net.kdt.pojavlaunch.customcontrols.ControlLayout
+		<net.kdt.pojavlaunch.vulkan.customcontrols.ControlLayout
 			android:id="@+id/main_control_layout"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent">
 
-			<net.kdt.pojavlaunch.MinecraftGLSurface
+			<net.kdt.pojavlaunch.vulkan.MinecraftGLSurface
 				android:id="@+id/main_game_render_view"
 				android:layout_width="fill_parent"
 				android:layout_height="fill_parent"/>
 
-			<net.kdt.pojavlaunch.Touchpad
+			<net.kdt.pojavlaunch.vulkan.Touchpad
 				android:layout_height="match_parent"
 				android:layout_width="match_parent"
 				android:orientation="vertical"
@@ -34,7 +34,7 @@
 				android:visibility="gone"/>
 
 
-			<net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput
+			<net.kdt.pojavlaunch.vulkan.customcontrols.keyboard.TouchCharInput
 				android:id="@+id/mainTouchCharInput"
 				android:layout_width="1dp"
 				android:layout_height="1dp"
@@ -44,7 +44,7 @@
 				android:inputType="textFilter|textImeMultiLine|textAutoComplete|textAutoCorrect"
 				tools:ignore="TouchTargetSizeCheck" />
 
-		</net.kdt.pojavlaunch.customcontrols.ControlLayout>
+		</net.kdt.pojavlaunch.vulkan.customcontrols.ControlLayout>
 
 		<com.kdt.LoggerView
 			android:id="@+id/mainLoggerView"

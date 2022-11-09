@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.pojavlaunch.vulkan.customcontrols.handleview;
 
 import android.view.View;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlButton;
 
 public class EditControlSubButtonPopup extends EditControlButtonPopup{
 

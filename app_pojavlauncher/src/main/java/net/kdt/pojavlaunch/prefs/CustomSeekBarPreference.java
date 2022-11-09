@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.prefs;
+package net.kdt.pojavlaunch.vulkan.prefs;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.preference.PreferenceViewHolder;
 import androidx.preference.SeekBarPreference;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 public class CustomSeekBarPreference extends SeekBarPreference {
 

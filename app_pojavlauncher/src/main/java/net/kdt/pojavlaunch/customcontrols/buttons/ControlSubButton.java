@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package net.kdt.pojavlaunch.vulkan.customcontrols.buttons;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -7,10 +7,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import net.kdt.pojavlaunch.SingleTapConfirm;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
+import net.kdt.pojavlaunch.vulkan.SingleTapConfirm;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlLayout;
 
 public class ControlSubButton extends ControlButton {
 

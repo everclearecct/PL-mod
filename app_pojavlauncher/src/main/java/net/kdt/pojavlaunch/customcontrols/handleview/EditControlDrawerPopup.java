@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.pojavlaunch.vulkan.customcontrols.handleview;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -7,11 +7,11 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlDrawer;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlLayout;
 
 public class EditControlDrawerPopup extends EditControlButtonPopup{
     private Spinner mOrientationSpinner;

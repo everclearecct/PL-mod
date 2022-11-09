@@ -1,5 +1,5 @@
 
-package net.kdt.pojavlaunch.authenticator.mojang.yggdrasil;
+package net.kdt.pojavlaunch.vulkan.authenticator.mojang.yggdrasil;
 
 import java.util.UUID;
 

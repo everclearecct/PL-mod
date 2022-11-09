@@ -1,19 +1,19 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.pojavlaunch.vulkan.customcontrols;
 
 import android.util.*;
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Modifier;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.*;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.utils.*;
 import net.objecthunter.exp4j.*;
 import net.objecthunter.exp4j.function.Function;
 
 import org.lwjgl.glfw.*;
 
-import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
+import static net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
 import androidx.annotation.Keep;

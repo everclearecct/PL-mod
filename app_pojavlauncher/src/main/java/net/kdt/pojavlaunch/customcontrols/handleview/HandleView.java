@@ -17,7 +17,7 @@
 /*
  * This class has been splited from android/widget/Editor$HandleView.java
  */
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.pojavlaunch.vulkan.customcontrols.handleview;
 
 import android.graphics.*;
 import android.graphics.drawable.*;
@@ -25,8 +25,8 @@ import android.os.*;
 import android.view.*;
 import android.widget.*;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlButton;
 
 
 public abstract class HandleView extends View implements ViewPositionListener, View.OnLongClickListener {

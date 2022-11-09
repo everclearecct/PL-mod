@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.pojavlaunch.vulkan.utils;
 
 import android.util.*;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 import org.apache.commons.io.*;
 
 public class DownloadUtils {

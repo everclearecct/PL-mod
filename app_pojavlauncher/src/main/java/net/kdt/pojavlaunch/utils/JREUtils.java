@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.pojavlaunch.vulkan.utils;
 
-import static net.kdt.pojavlaunch.Architecture.ARCH_X86;
-import static net.kdt.pojavlaunch.Architecture.is64BitsDevice;
-import static net.kdt.pojavlaunch.Tools.LOCAL_RENDERER;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static net.kdt.pojavlaunch.vulkan.Architecture.ARCH_X86;
+import static net.kdt.pojavlaunch.vulkan.Architecture.is64BitsDevice;
+import static net.kdt.pojavlaunch.vulkan.Tools.LOCAL_RENDERER;
+import static net.kdt.pojavlaunch.vulkan.Tools.currentDisplayMetrics;
 
 import android.app.*;
 import android.content.*;
@@ -15,10 +15,10 @@ import android.widget.Toast;
 import com.oracle.dalvik.*;
 import java.io.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.prefs.*;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraConstants;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraCore;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
 import org.lwjgl.glfw.*;
 
 import javax.microedition.khronos.egl.EGL10;

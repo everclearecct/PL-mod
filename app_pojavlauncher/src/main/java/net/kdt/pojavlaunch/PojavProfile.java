@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -10,11 +10,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
 
-import net.kdt.pojavlaunch.authenticator.mojang.RefreshListener;
-import net.kdt.pojavlaunch.authenticator.mojang.RefreshTokenTask;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.RefreshListener;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.RefreshTokenTask;
+import net.kdt.pojavlaunch.vulkan.value.MinecraftAccount;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
 
 public class PojavProfile {
 	private static final String PROFILE_PREF = "pojav_profile";

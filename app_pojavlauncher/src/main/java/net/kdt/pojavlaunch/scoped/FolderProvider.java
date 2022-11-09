@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.scoped;
+package net.kdt.pojavlaunch.vulkan.scoped;
 
 import android.content.res.AssetFileDescriptor;
 import android.database.Cursor;
@@ -11,8 +11,8 @@ import android.provider.DocumentsContract.Root;
 import android.provider.DocumentsProvider;
 import android.webkit.MimeTypeMap;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.Tools;
 
 import org.apache.commons.io.FileUtils;
 

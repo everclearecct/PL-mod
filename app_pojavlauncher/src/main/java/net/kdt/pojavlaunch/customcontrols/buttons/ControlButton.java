@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package net.kdt.pojavlaunch.vulkan.customcontrols.buttons;
 
 import android.annotation.SuppressLint;
 import android.graphics.*;
@@ -12,19 +12,19 @@ import android.widget.*;
 
 import androidx.core.math.MathUtils;
 
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.handleview.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlLayout;
+import net.kdt.pojavlaunch.vulkan.customcontrols.handleview.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 import org.lwjgl.glfw.*;
 
-import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_BUTTONSIZE;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_BOTTOM_OFFSET;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_LEFT_OFFSET;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_RIGHT_OFFSET;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_TOP_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_BUTTONSIZE;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_BOTTOM_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_LEFT_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_RIGHT_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_TOP_OFFSET;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
@@ -391,7 +391,7 @@ public class ControlButton extends androidx.appcompat.widget.AppCompatButton imp
         float MIN_DISTANCE = Tools.dpToPx(8);
 
         if(button == this) return false;
-        if(net.kdt.pojavlaunch.utils.MathUtils.dist(
+        if(net.kdt.pojavlaunch.vulkan.utils.MathUtils.dist(
                 button.getX() + button.getWidth()/2f,
                 button.getY() + button.getHeight()/2f,
                 getX() + getWidth()/2f,

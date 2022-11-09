@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import static android.os.Build.VERSION_CODES.P;
-import static net.kdt.pojavlaunch.Tools.ignoreNotch;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_HIDE_SIDEBAR;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
+import static net.kdt.pojavlaunch.vulkan.Tools.ignoreNotch;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_HIDE_SIDEBAR;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -31,19 +31,19 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.extra.ExtraListener;
-import net.kdt.pojavlaunch.fragments.ConsoleFragment;
-import net.kdt.pojavlaunch.fragments.CrashFragment;
-import net.kdt.pojavlaunch.fragments.LauncherFragment;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.prefs.screens.LauncherPreferenceFragment;
-import net.kdt.pojavlaunch.profiles.ProfileAdapter;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.profiles.ProfileEditor;
-import net.kdt.pojavlaunch.profiles.ProfileIconCache;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraCore;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraListener;
+import net.kdt.pojavlaunch.vulkan.fragments.ConsoleFragment;
+import net.kdt.pojavlaunch.vulkan.fragments.CrashFragment;
+import net.kdt.pojavlaunch.vulkan.fragments.LauncherFragment;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.prefs.screens.LauncherPreferenceFragment;
+import net.kdt.pojavlaunch.vulkan.profiles.ProfileAdapter;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraConstants;
+import net.kdt.pojavlaunch.vulkan.profiles.ProfileEditor;
+import net.kdt.pojavlaunch.vulkan.profiles.ProfileIconCache;
+import net.kdt.pojavlaunch.vulkan.value.MinecraftAccount;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
 
 import java.io.File;
 import java.io.IOException;

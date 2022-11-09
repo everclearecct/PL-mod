@@ -62,7 +62,7 @@ android {
     }
 	
     defaultConfig {
-        applicationId "net.kdt.pojavlaunch"
+        applicationId "net.kdt.pojavlaunch.vulkan"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode getDateSeconds()
@@ -77,7 +77,7 @@ android {
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.customDebug
-            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder.debug'
+            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.vulkan.scoped.gamefolder.debug'
         }
         proguard {
             initWith debug
@@ -92,7 +92,7 @@ android {
 	    // defaultConfig already set
             // multiDexEnabled = true
            // debuggable = true
-            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.scoped.gamefolder'
+            resValue 'string', 'storageProviderAuthorities', 'net.kdt.pojavlaunch.vulkan.scoped.gamefolder'
         }
         gplay {
             initWith release

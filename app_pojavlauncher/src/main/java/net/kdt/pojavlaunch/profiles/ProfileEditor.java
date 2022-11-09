@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package net.kdt.pojavlaunch.vulkan.profiles;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -17,18 +17,18 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.BaseLauncherActivity;
-import net.kdt.pojavlaunch.PojavLauncherActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.extra.ExtraListener;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.RTSpinnerAdapter;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
-import net.kdt.pojavlaunch.multirt.Runtime;
+import net.kdt.pojavlaunch.vulkan.BaseLauncherActivity;
+import net.kdt.pojavlaunch.vulkan.PojavLauncherActivity;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraCore;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraListener;
+import net.kdt.pojavlaunch.vulkan.extra.ExtraConstants;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.multirt.RTSpinnerAdapter;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.multirt.Runtime;
 
 import java.util.ArrayList;
 import java.util.Arrays;

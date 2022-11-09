@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package net.kdt.pojavlaunch.vulkan.colorselector;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 public class ColorSelector implements HueSelectionListener, RectangleSelectionListener, AlphaSelectionListener, TextWatcher{
     private static final int ALPHA_MASK = ~(0xFF << 24);

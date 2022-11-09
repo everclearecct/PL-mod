@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.pojavlaunch.vulkan.utils;
 
 public class MathUtils {
 

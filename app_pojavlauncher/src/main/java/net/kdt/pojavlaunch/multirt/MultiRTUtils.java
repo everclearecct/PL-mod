@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.pojavlaunch.vulkan.multirt;
 
 import static org.apache.commons.io.FileUtils.listFiles;
 
@@ -6,9 +6,9 @@ import android.content.Context;
 import android.system.Os;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.JREUtils;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.utils.JREUtils;
 
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;

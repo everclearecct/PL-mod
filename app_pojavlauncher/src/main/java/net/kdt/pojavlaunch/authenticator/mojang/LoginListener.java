@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.mojang;
+package net.kdt.pojavlaunch.vulkan.authenticator.mojang;
 
 public interface LoginListener
 {

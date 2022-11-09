@@ -17,7 +17,7 @@
 /*
  * This class has been splited from android/widget/Editor$HandleView.java
  */
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.pojavlaunch.vulkan.customcontrols.handleview;
 
 import android.content.*;
 import android.graphics.drawable.ColorDrawable;
@@ -25,13 +25,13 @@ import android.view.*;
 import android.view.ViewGroup.*;
 import android.widget.*;
 
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 import android.view.View.OnClickListener;
-import net.kdt.pojavlaunch.customcontrols.*;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlSubButton;
+import net.kdt.pojavlaunch.vulkan.customcontrols.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlButton;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlDrawer;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlSubButton;
 
 import androidx.appcompat.app.*;
 

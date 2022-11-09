@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.microsoft;
+package net.kdt.pojavlaunch.vulkan.authenticator.microsoft;
 
 import android.app.*;
 import android.content.*;
@@ -9,15 +9,15 @@ import java.lang.ref.WeakReference;
 import java.net.*;
 import java.text.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.authenticator.mojang.*;
-import net.kdt.pojavlaunch.authenticator.microsoft.*;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.*;
+import net.kdt.pojavlaunch.vulkan.authenticator.microsoft.*;
 import org.json.*;
 
 import java.text.ParseException;
 import java.io.*;
-import net.kdt.pojavlaunch.value.launcherprofiles.*;
-import net.kdt.pojavlaunch.value.*;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
 
 public class MicrosoftAuthTask extends AsyncTask<String, Void, Object> {
 /*

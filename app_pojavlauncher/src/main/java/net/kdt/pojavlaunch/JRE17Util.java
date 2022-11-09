@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
-import static net.kdt.pojavlaunch.Architecture.archAsString;
+import static net.kdt.pojavlaunch.vulkan.Architecture.archAsString;
 
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.multirt.Runtime;
 
 import java.io.IOException;
 

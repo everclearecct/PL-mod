@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.pojavlaunch.vulkan.customcontrols;
 import android.content.*;
 import android.util.*;
 import android.view.*;
@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlSubButton;
-import net.kdt.pojavlaunch.customcontrols.handleview.HandleView;
-import net.kdt.pojavlaunch.prefs.*;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlButton;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlDrawer;
+import net.kdt.pojavlaunch.vulkan.customcontrols.buttons.ControlSubButton;
+import net.kdt.pojavlaunch.vulkan.customcontrols.handleview.HandleView;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
 
 public class ControlLayout extends FrameLayout {
 	protected CustomControls mLayout;

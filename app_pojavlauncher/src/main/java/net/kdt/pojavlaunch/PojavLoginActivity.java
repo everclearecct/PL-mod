@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
-import static net.kdt.pojavlaunch.Architecture.archAsString;
-import static net.kdt.pojavlaunch.Tools.getFileName;
+import static net.kdt.pojavlaunch.vulkan.Architecture.archAsString;
+import static net.kdt.pojavlaunch.vulkan.Tools.getFileName;
 
 import android.Manifest;
 import android.app.Activity;
@@ -41,22 +41,22 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import net.kdt.pojavlaunch.authenticator.microsoft.MicrosoftAuthTask;
-import net.kdt.pojavlaunch.authenticator.microsoft.ui.MicrosoftLoginGUIActivity;
-import net.kdt.pojavlaunch.authenticator.mojang.InvalidateTokenTask;
-import net.kdt.pojavlaunch.authenticator.mojang.LoginListener;
-import net.kdt.pojavlaunch.authenticator.mojang.LoginTask;
-import net.kdt.pojavlaunch.authenticator.mojang.RefreshListener;
-import net.kdt.pojavlaunch.colorselector.ColorSelector;
-import net.kdt.pojavlaunch.customcontrols.CustomControls;
-import net.kdt.pojavlaunch.multirt.MultiRTConfigDialog;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.LocaleUtils;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
-import net.kdt.pojavlaunch.value.PerVersionConfig;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.vulkan.authenticator.microsoft.MicrosoftAuthTask;
+import net.kdt.pojavlaunch.vulkan.authenticator.microsoft.ui.MicrosoftLoginGUIActivity;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.InvalidateTokenTask;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.LoginListener;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.LoginTask;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.RefreshListener;
+import net.kdt.pojavlaunch.vulkan.colorselector.ColorSelector;
+import net.kdt.pojavlaunch.vulkan.customcontrols.CustomControls;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTConfigDialog;
+import net.kdt.pojavlaunch.vulkan.multirt.MultiRTUtils;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.utils.LocaleUtils;
+import net.kdt.pojavlaunch.vulkan.value.MinecraftAccount;
+import net.kdt.pojavlaunch.vulkan.value.PerVersionConfig;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.LauncherProfiles;
+import net.kdt.pojavlaunch.vulkan.value.launcherprofiles.MinecraftProfile;
 
 import org.apache.commons.compress.utils.IOUtils;
 import org.apache.commons.io.FileUtils;

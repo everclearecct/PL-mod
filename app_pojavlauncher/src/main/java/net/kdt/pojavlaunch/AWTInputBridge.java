@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 public class AWTInputBridge {
     public static final int EVENT_TYPE_CHAR = 1000;

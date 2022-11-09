@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,14 +8,14 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
 
-import net.kdt.pojavlaunch.customcontrols.*;
-import net.kdt.pojavlaunch.prefs.*;
-import net.kdt.pojavlaunch.utils.MCOptionUtils;
+import net.kdt.pojavlaunch.vulkan.customcontrols.*;
+import net.kdt.pojavlaunch.vulkan.prefs.*;
+import net.kdt.pojavlaunch.vulkan.utils.MCOptionUtils;
 
 import java.io.*;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_SUSTAINED_PERFORMANCE;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.DEFAULT_PREF;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_SUSTAINED_PERFORMANCE;
 
 public class MainActivity extends BaseMainActivity {
     public static ControlLayout mControlLayout;

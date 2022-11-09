@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.prefs;
+package net.kdt.pojavlaunch.vulkan.prefs;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_BOTTOM_OFFSET;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_LEFT_OFFSET;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_RIGHT_OFFSET;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_CONTROL_TOP_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.DEFAULT_PREF;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_BOTTOM_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_LEFT_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_RIGHT_OFFSET;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_CONTROL_TOP_OFFSET;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import androidx.preference.Preference;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 /** Custom preference class displaying a dialog */
 public class ControlOffsetPreference extends Preference {

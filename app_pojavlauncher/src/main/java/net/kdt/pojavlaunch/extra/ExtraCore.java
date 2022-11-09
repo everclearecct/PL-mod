@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.extra;
+package net.kdt.pojavlaunch.vulkan.extra;
 
 import java.lang.ref.WeakReference;
 import java.util.Map;

@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.value;
+package net.kdt.pojavlaunch.vulkan.value;
 
 import androidx.annotation.Keep;
-import net.kdt.pojavlaunch.JMinecraftVersionList.Arguments.ArgValue.ArgRules;
+import net.kdt.pojavlaunch.vulkan.JMinecraftVersionList.Arguments.ArgValue.ArgRules;
 
 @Keep
 public class DependentLibrary {

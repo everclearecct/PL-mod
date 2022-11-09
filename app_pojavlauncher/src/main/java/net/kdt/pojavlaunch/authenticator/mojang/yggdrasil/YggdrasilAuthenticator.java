@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.authenticator.mojang.yggdrasil;
+package net.kdt.pojavlaunch.vulkan.authenticator.mojang.yggdrasil;
 
 import android.util.*;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 import org.apache.commons.io.*;
 
 public class YggdrasilAuthenticator {
@@ -90,7 +90,7 @@ public class YggdrasilAuthenticator {
         }
     }
     public AuthenticateResponse authenticate(String username, String password, UUID clientId) throws IOException, Throwable {
-        NetworkResponse obj = makeRequest("authenticate", new net.kdt.pojavlaunch.authenticator.mojang.yggdrasil.AuthenticateRequest(username, password, clientId, this.clientName, this.clientVersion), AuthenticateResponse.class);
+        NetworkResponse obj = makeRequest("authenticate", new net.kdt.pojavlaunch.vulkan.authenticator.mojang.yggdrasil.AuthenticateRequest(username, password, clientId, this.clientName, this.clientVersion), AuthenticateResponse.class);
         /*
         if (obj.statusCode != 200) {
             throw new RuntimeException("Invalid username or password, status code: " + obj.statusCode);

@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package net.kdt.pojavlaunch.vulkan.customcontrols.gamepad;
 
 import android.view.InputDevice;
 import android.view.MotionEvent;
 
 
-import net.kdt.pojavlaunch.utils.MathUtils;
+import net.kdt.pojavlaunch.vulkan.utils.MathUtils;
 
 public class GamepadJoystick {
 

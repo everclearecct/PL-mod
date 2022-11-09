@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package net.kdt.pojavlaunch.vulkan.fragments;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -21,9 +21,9 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 import android.content.*;
 import java.io.*;
-import net.kdt.pojavlaunch.value.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;

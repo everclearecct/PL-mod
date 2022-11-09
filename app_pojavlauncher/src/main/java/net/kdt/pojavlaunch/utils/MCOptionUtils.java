@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.pojavlaunch.vulkan.utils;
 import static org.lwjgl.glfw.CallbackBridge.windowHeight;
 import static org.lwjgl.glfw.CallbackBridge.windowWidth;
 
@@ -8,7 +8,7 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.pojavlaunch.vulkan.Tools;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.pojavlaunch.vulkan.multirt;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.R;
 
 import java.util.List;
 

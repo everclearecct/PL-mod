@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.kdt.pojavlaunch.authenticator.microsoft;
+package net.kdt.pojavlaunch.vulkan.authenticator.microsoft;
 
 import android.util.*;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 import org.json.*;
 
 

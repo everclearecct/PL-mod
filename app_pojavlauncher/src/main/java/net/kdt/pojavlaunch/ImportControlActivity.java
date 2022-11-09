@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.utils.FileUtils;
+import net.kdt.pojavlaunch.vulkan.utils.FileUtils;
 
 import org.apache.commons.io.IOUtils;
 import org.json.JSONException;

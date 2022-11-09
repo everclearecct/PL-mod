@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.pojavlaunch.vulkan.multirt;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -14,10 +14,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.Architecture;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.pojavlaunch.vulkan.Architecture;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences;
 
 import java.io.IOException;
 import java.util.List;

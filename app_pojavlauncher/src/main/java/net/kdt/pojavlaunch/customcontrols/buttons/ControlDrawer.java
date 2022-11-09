@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package net.kdt.pojavlaunch.vulkan.customcontrols.buttons;
 
 import android.annotation.SuppressLint;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
+import net.kdt.pojavlaunch.vulkan.Tools;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlDrawerData;
+import net.kdt.pojavlaunch.vulkan.customcontrols.ControlLayout;
 
 import java.util.ArrayList;
 

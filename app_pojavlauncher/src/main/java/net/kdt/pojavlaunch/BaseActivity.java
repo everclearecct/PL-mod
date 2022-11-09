@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import android.content.*;
 import android.os.*;
 import androidx.appcompat.app.*;
-import net.kdt.pojavlaunch.utils.*;
+import net.kdt.pojavlaunch.vulkan.utils.*;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
 
 public abstract class BaseActivity extends AppCompatActivity {
     @Override

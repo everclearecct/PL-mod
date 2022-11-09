@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.pojavlaunch.vulkan.prefs.screens;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
+import static net.kdt.pojavlaunch.vulkan.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
 
 import android.os.Build;
 import android.os.Bundle;
 
 import androidx.preference.PreferenceFragmentCompat;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.prefs.CustomSeekBarPreference;
+import net.kdt.pojavlaunch.vulkan.R;
+import net.kdt.pojavlaunch.vulkan.prefs.CustomSeekBarPreference;
 
 /**
  * Fragment for any settings video related

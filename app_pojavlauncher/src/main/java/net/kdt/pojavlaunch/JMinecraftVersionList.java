@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch;
+package net.kdt.pojavlaunch.vulkan;
 
 import androidx.annotation.Keep;
 import java.util.*;
-import net.kdt.pojavlaunch.value.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
 
 @Keep
 public class JMinecraftVersionList {

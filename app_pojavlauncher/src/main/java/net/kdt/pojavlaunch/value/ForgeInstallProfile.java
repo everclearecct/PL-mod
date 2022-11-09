@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.value;
+package net.kdt.pojavlaunch.vulkan.value;
 
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 public class ForgeInstallProfile {
     // ----- < 1.12.2 Forge Install Profile -----

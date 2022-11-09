@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package net.kdt.pojavlaunch.vulkan.customcontrols.keyboard;
 
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
@@ -15,8 +15,8 @@ import android.view.inputmethod.InputMethodManager;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.R;
+import net.kdt.pojavlaunch.vulkan.LwjglGlfwKeycode;
+import net.kdt.pojavlaunch.vulkan.R;
 
 import org.lwjgl.glfw.CallbackBridge;
 

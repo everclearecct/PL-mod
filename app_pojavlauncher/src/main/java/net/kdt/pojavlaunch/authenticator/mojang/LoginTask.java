@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.authenticator.mojang;
+package net.kdt.pojavlaunch.vulkan.authenticator.mojang;
 
 import android.os.*;
-import net.kdt.pojavlaunch.authenticator.mojang.yggdrasil.*;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.yggdrasil.*;
 import java.io.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.vulkan.*;
 
 public class LoginTask extends AsyncTask<String, Void, Void>
 {

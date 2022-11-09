@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.mojang;
+package net.kdt.pojavlaunch.vulkan.authenticator.mojang;
 
 import android.content.*;
 import android.os.*;
@@ -7,10 +7,10 @@ import com.google.gson.*;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.authenticator.mojang.yggdrasil.*;
+import net.kdt.pojavlaunch.vulkan.*;
+import net.kdt.pojavlaunch.vulkan.authenticator.mojang.yggdrasil.*;
 import android.app.*;
-import net.kdt.pojavlaunch.value.*;
+import net.kdt.pojavlaunch.vulkan.value.*;
 
 public class RefreshTokenTask extends AsyncTask<String, Void, Throwable> {
     private YggdrasilAuthenticator authenticator = new YggdrasilAuthenticator();
